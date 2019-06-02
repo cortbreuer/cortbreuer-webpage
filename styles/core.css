@@ -32,8 +32,8 @@ a {
 
 .navlink {
     font-size: 16 px;
-    margin-left: 30 px;
-    margin-right: 30 px;
+    padding-left: 30 px;
+    padding-right: 30 px;
     float: right;
 }
 
