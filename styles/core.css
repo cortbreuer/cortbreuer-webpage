@@ -21,4 +21,23 @@ body {
 
 .contentgrid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 30 px;
+}
+
+.card {
+    background: skyblue;
+}
+
+.cardtitle {
+
+}
+
+.cardfill {
+
+}
+
+.socials {
+    height: 60 px;
+    width: 60 px;
 }
