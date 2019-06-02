@@ -1,5 +1,6 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    color: rgb(50, 50, 50);
 }
 
 ul {
@@ -10,6 +11,11 @@ ul {
 
 li {
     display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
 }
 
 .nav {
