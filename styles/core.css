@@ -24,7 +24,7 @@ a {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: 80px;
+    grid-auto-rows: 120px;
 }
 
 .navwrapper > a {
@@ -89,9 +89,14 @@ a {
     grid-row: 1 / 2;
 }
 
-.cardfill {
+.cardfill > img {
     max-width: 150px;
     max-height: 80%;
+}
+
+.card {
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 10px;
 }
 
 .socialbar {
