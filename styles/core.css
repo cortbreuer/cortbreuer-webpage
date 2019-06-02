@@ -8,6 +8,10 @@ ul {
     padding: 0;
 }
 
+li {
+    display: inline;
+}
+
 .nav {
     display: grid;
     margin-top: 50 px;
@@ -17,12 +21,14 @@ ul {
 
 .sitetitle {
     font-size: 24 px;
+    float: left;
 }
 
 .navlink {
     font-size: 16 px;
     margin-left: 30 px;
     margin-right: 30 px;
+    float: right;
 }
 
 .contentgrid {
