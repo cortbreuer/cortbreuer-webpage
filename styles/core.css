@@ -58,9 +58,13 @@ a {
 
 }
 
-.socials {
+.socialbar {
     height: 60 px;
-    width: 60 px;
+}
+
+.socials {
+    max-width: auto;
+    max-height: 100%;
     padding-left: 30 px;
     padding-right: 30 px;
     float: center;
