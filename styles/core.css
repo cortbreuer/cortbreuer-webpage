@@ -18,13 +18,14 @@ a {
 
 .navwrapper {
     margin: 0 auto;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
     grid-auto-rows: 100px;
 }
 
-.navwrapper > li {
+.navwrapper > a {
     border: 2px solid rgb(233,171,88);
     border-radius: 5px;
     background-color: rgba(233,171,88,.5);
