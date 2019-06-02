@@ -60,4 +60,7 @@ a {
 .socials {
     height: 60 px;
     width: 60 px;
+    padding-left: 30 px;
+    padding-right: 30 px;
+    float: center;
 }
