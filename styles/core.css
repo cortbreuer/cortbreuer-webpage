@@ -20,7 +20,6 @@ a {
 
 .navwrapper {
     margin: 0 auto;
-    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
