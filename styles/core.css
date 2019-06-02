@@ -89,6 +89,11 @@ a {
     grid-row: 1 / 2;
 }
 
+.cardfill {
+    max-width: 150px;
+    max-height: 80%;
+}
+
 .socialbar {
     position: absolute;
     bottom: 0;
