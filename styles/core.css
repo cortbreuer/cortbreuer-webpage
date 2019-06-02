@@ -2,6 +2,12 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     display: grid;
     margin-top: 50 px;
