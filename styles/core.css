@@ -47,11 +47,11 @@ a {
 .footer-grid {
     grid-area: footer;
     display: grid;
-    margin: 30px auto 20px auto;
-    grid-template-columns:  40px 40px 40px;
-    grid-template-rows: 40px 20px;
+    margin: 60px auto 20px auto;
+    grid-template-columns:  35px 35px 35px;
+    grid-template-rows: 35px 20px;
     grid-column-gap: 60px;
-    grid-row-gap: 40px;
+    grid-row-gap: 30px;
 }
 
 .tagline {
@@ -76,8 +76,8 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 
 .social {
     margin: auto;
-    height: auto;
-    width: 100%;
+    height: 100%;
+    width: auto;
 }
 
 .headline {
