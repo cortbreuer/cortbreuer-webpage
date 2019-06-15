@@ -1,111 +1,66 @@
-body {
+* {
     font-family: 'Quicksand', sans-serif;
     color: rgb(50, 50, 50);
-    width: 100%;
-    margin: auto;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
+div {
+    border: 1px solid rgb(50, 50, 50);
 }
 
 a {
     text-decoration: none;
-    color: rgb(50, 50, 50);
 }
 
-.navwrapper {
-    margin: auto;
-    width: 80%;
+.grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 1%;
-    grid-auto-rows: 7%;
-}
-
-.navwrapper > a {
-    padding: 1em;
-}
-
-.sitetitle {
-    font-size: 24px;
-    grid-column: 1 / 4;
-    grid-row: 1;
-}
-
-.navabout {
-    font-size: 18px;
-    grid-column: 7 / 8;
-    grid-row: 1;
-}
-
-.navresume {
-    font-size: 18px;
-    grid-column: 8 / 9;
-    grid-row: 1;
-}
-
-.navcontact {
-    font-size: 18px;
-    grid-column: 9 / 10;
-    grid-row: 1;
-}
-
-.main {
-    padding-bottom: 2.5rem;
-    margin: auto;
-    width: 80%;
-}
-
-.contentwrapper {
+    margin: 40px auto auto auto;
     width: 60%;
-    margin: auto;
+    grid-template-rows: 70px auto 200px;
+    grid-template-areas:    "navbar"
+                            "content"
+                            "footer";
+}
+
+.nav-grid {
+    grid-area: navbar;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-template-rows: 150px;
+    grid-template-columns: 350px auto auto auto auto;
+    grid-gap: 30px;
 }
 
-.project1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+.nav-grid > div {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.project2 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+.body-grid {
+    grid-area: content;
+    display: grid;
+    margin: 60px auto 60px auto;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 320px 320px;
+    grid-gap: 80px;
 }
 
-.project3 {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
+.footer-grid {
+    grid-area: footer;
+    display: grid;
+    margin: 30px auto 20px auto;
+    grid-template-columns:  50px 50px 50px;
+    grid-template-rows: 50px 20px;
+    grid-gap: 60px;
 }
 
-.cardfill > img {
-    width: 150px;
-    height: 80%;
+.tagline {
+    grid-row: 2;
+    grid-column: 1 / 4
 }
 
-.card {
-    border: 2px solid rgb(50, 50, 50);
-    border-radius: 10px;
+.navtitle {
+    font-size: 40px;
 }
 
-.socialbar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 120px;
-}
-
-.socials {
-    margin: auto;
-    max-width: 60%;
-    max-height: 50px;
-    padding-left: 30 px;
-    padding-right: 30 px;
+.navlink {
+    text-align: right;
+    font-size: 22px;
 }
