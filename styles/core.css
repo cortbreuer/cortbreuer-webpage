@@ -14,7 +14,7 @@ a {
 
 .grid-wrapper {
     display: grid;
-    margin: 20px auto auto auto;
+    margin: 30px auto auto auto;
     width: 65%;
     grid-template-rows: 70px auto 200px;
     grid-template-areas:    "navbar"
@@ -82,8 +82,8 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 
 .headline {
     margin-left: 100px;
-    font-family: monospace;
-    color: #7392B7;
+    font-family: 'Roboto Mono', monospace;
+    color: #557395;
     font-size: 20px;
 }
 
