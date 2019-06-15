@@ -61,14 +61,14 @@ a {
 }
 
 a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
-    font-size: 42px;
+    font-size: 46px;
     vertical-align: bottom;
     color: #197aff;
     text-decoration: overline;
 }
 
 a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
-    font-size: 24px;
+    font-size: 28px;
     vertical-align: bottom;
     text-decoration: overline;
     color: #197aff;
@@ -84,7 +84,7 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     margin-left: 100px;
     font-family: 'Roboto Mono', monospace;
     color: #557395;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .project {
