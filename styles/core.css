@@ -4,9 +4,9 @@ body {
     background-color: #f6f9fc;
 }
 
-div > div > div {
+/*div > div > div {
     border: 1px solid rgb(50, 50, 50);
-}
+}*/
 
 a {
     text-decoration: none;
@@ -14,7 +14,7 @@ a {
 
 .grid-wrapper {
     display: grid;
-    margin: 0px auto auto auto;
+    margin: 20px auto auto auto;
     width: 65%;
     grid-template-rows: 70px auto 200px;
     grid-template-areas:    "navbar"
