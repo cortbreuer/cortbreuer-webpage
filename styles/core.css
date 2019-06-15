@@ -30,8 +30,8 @@ a {
 }
 
 .nav-grid > div {
-    margin-top: auto;
     margin-bottom: auto;
+    margin-top: 0px;
 }
 
 .body-grid {
@@ -60,12 +60,16 @@ a {
 }
 
 a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
-    font-size: 36px;
+    font-size: 42px;
+    vertical-align: bottom;
     color: #fec20f;
+    text-decoration: overline;
 }
 
 a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
-    font-size: 18px;
+    font-size: 24px;
+    vertical-align: bottom;
+    text-decoration: overline;
     color: #0062ff;
 }
 
