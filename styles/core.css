@@ -86,3 +86,8 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     color: #7392B7;
     font-size: 20px;
 }
+
+.project {
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 10px;
+}
