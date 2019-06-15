@@ -1,6 +1,7 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: rgb(50, 50, 50);
+    background-color: #f6f9fc;
 }
 
 div > div > div {
@@ -24,7 +25,7 @@ a {
 .nav-grid {
     grid-area: navbar;
     display: grid;
-    grid-template-columns: 350px auto auto auto auto;
+    grid-template-columns: 500px auto auto auto auto;
     grid-gap: 30px;
     font-weight: bolder;
 }
@@ -62,7 +63,7 @@ a {
 a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
     font-size: 42px;
     vertical-align: bottom;
-    color: #fec20f;
+    color: #197aff;
     text-decoration: overline;
 }
 
@@ -70,7 +71,7 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     font-size: 24px;
     vertical-align: bottom;
     text-decoration: overline;
-    color: #0062ff;
+    color: #197aff;
 }
 
 .social {
@@ -81,4 +82,7 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 
 .headline {
     margin-left: 100px;
+    font-family: monospace;
+    color: #7392B7;
+    font-size: 20px;
 }
