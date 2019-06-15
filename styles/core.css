@@ -14,7 +14,7 @@ a {
 .grid-wrapper {
     display: grid;
     margin: 0px auto auto auto;
-    width: 60%;
+    width: 65%;
     grid-template-rows: 70px auto 200px;
     grid-template-areas:    "navbar"
                             "content"
@@ -26,6 +26,7 @@ a {
     display: grid;
     grid-template-columns: 350px auto auto auto auto;
     grid-gap: 30px;
+    font-weight: bolder;
 }
 
 .nav-grid > div {
@@ -36,9 +37,9 @@ a {
 .body-grid {
     grid-area: content;
     display: grid;
-    margin: 60px auto 60px auto;
-    grid-template-columns: 220px 220px 220px;
-    grid-template-rows: 320px 320px;
+    margin-top: 60px;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 300px 300px 300px;
     grid-gap: 80px;
 }
 
@@ -46,9 +47,10 @@ a {
     grid-area: footer;
     display: grid;
     margin: 30px auto 20px auto;
-    grid-template-columns:  50px 50px 50px;
-    grid-template-rows: 50px 20px;
-    grid-gap: 60px;
+    grid-template-columns:  40px 40px 40px;
+    grid-template-rows: 40px 20px;
+    grid-column-gap: 60px;
+    grid-row-gap: 40px;
 }
 
 .tagline {
@@ -65,4 +67,14 @@ a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
 a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     font-size: 18px;
     color: #0062ff;
+}
+
+.social {
+    margin: auto;
+    height: auto;
+    width: 100%;
+}
+
+.headline {
+    margin-left: 100px;
 }
