@@ -16,7 +16,7 @@ a {
     display: grid;
     margin: 30px auto auto auto;
     width: 65%;
-    grid-template-rows: 70px auto 200px;
+    grid-template-rows: 90px auto 200px;
     grid-template-areas:    "navbar"
                             "content"
                             "footer";
@@ -26,8 +26,8 @@ a {
     grid-area: navbar;
     display: grid;
     grid-template-columns: 500px auto auto auto auto;
-    grid-gap: 30px;
-    /*font-weight: bold;*/
+    grid-template-rows: 70px;
+    grid-column-gap: 30px;
 }
 
 .body-grid {
@@ -65,7 +65,7 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     font-size: 22px;
     text-decoration: overline;
     color: #197aff;
-
+    margin-top: 30px;
 }
 
 .social {
@@ -80,6 +80,10 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     font-family: 'Roboto Mono', monospace;
     color: #557395;
     font-size: 20px;
+}
+
+.navlink {
+    margin-top: 30px;
 }
 
 .titler {
