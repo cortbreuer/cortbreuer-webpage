@@ -1,10 +1,10 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: rgb(50, 50, 50);
-    background-color: #f6f9fc;
+    background-color: #f7f9fc;
 }
 
-/*div > div > div > div {
+/*div  {
     border: 1px solid rgb(50, 50, 50);
 }*/
 
@@ -15,7 +15,7 @@ a {
 .grid-wrapper {
     display: grid;
     margin: 30px auto auto auto;
-    width: 65%;
+    width: 55%;
     grid-template-rows: 90px auto 340px;
     grid-template-areas:    "navbar"
                             "content"
@@ -25,7 +25,7 @@ a {
 .nav-grid {
     grid-area: navbar;
     display: grid;
-    grid-template-columns: 500px auto auto auto auto;
+    grid-template-columns: 500px auto auto auto auto auto;
     grid-template-rows: 70px;
     grid-column-gap: 10px;
 }
@@ -35,7 +35,7 @@ a {
     display: grid;
     margin-top: 50px;
     grid-template-columns: 100%;
-    grid-template-rows: 200px 300px 300px 300px;
+    grid-template-rows: 160px 300px 300px 300px;
     grid-gap: 80px;
 }
 
@@ -56,16 +56,18 @@ a {
 }
 
 a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
-    font-size: 38px;
+    font-size: 36px;
     color: #197aff;
-    font-family: 'Roboto Mono', monospace;
+    /*font-family: 'Roboto Mono', monospace;*/
+    font-weight: lighter;
 }
 
 a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: overline;
-    color: #197aff;
+    color: #557395;
     line-height: 55px;
+    font-weight: lighter;
 }
 
 .social {
@@ -75,20 +77,22 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 }
 
 .headline {
-    width: 74%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     /*font-family: 'Roboto Mono', monospace;*/
     color: #557395;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .project {
-    border: 1px solid rgb(50, 50, 50);
-    border-radius: 20px;
+    /*border: 1px solid rgb(50, 50, 50);*/
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 b {
@@ -119,6 +123,7 @@ b {
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 10px;
+    color: #197aff;
 }
 
 .projectdescription {
