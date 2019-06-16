@@ -4,9 +4,9 @@ body {
     background-color: #f6f9fc;
 }
 
-/*div > div > div {
+div > div > div > div {
     border: 1px solid rgb(50, 50, 50);
-}*/
+}
 
 a {
     text-decoration: none;
@@ -16,7 +16,7 @@ a {
     display: grid;
     margin: 30px auto auto auto;
     width: 65%;
-    grid-template-rows: 90px auto 200px;
+    grid-template-rows: 90px auto 340px;
     grid-template-areas:    "navbar"
                             "content"
                             "footer";
@@ -33,16 +33,16 @@ a {
 .body-grid {
     grid-area: content;
     display: grid;
-    margin-top: 60px;
+    margin-top: 50px;
     grid-template-columns: 100%;
-    grid-template-rows: 150px 300px 300px 300px;
+    grid-template-rows: 200px 300px 300px 300px;
     grid-gap: 80px;
 }
 
 .footer-grid {
     grid-area: footer;
     display: grid;
-    margin: 60px auto 20px auto;
+    margin: 140px auto 20px auto;
     grid-template-columns:  35px 35px 35px;
     grid-template-rows: 35px 20px;
     grid-column-gap: 60px;
@@ -56,7 +56,7 @@ a {
 }
 
 a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
-    font-size: 42px;
+    font-size: 38px;
     color: #197aff;
     font-family: 'Roboto Mono', monospace;
 }
@@ -75,8 +75,9 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 }
 
 .headline {
-    width: 80%;
-    margin: auto;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
     /*font-family: 'Roboto Mono', monospace;*/
     color: #557395;
     font-size: 22px;
@@ -84,7 +85,10 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 
 .project {
     border: 1px solid rgb(50, 50, 50);
-    border-radius: 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 b {
@@ -93,4 +97,39 @@ b {
 
 .emph {
     color: #197aff;
+}
+
+.projectimage-wrapper {
+    float: left;
+    height: 100%;
+    width: 35%;
+}
+
+.projectimage {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.projecttitle {
+    float: right;
+    width: 60%;
+    height: 20%;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.projectdescription {
+    float: right;
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.projectbutton {
+    background: #747fe0;
+    color: #fff;
 }
