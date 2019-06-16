@@ -4,9 +4,9 @@ body {
     background-color: #f6f9fc;
 }
 
-div > div > div > div {
+/*div > div > div > div {
     border: 1px solid rgb(50, 50, 50);
-}
+}*/
 
 a {
     text-decoration: none;
@@ -27,7 +27,7 @@ a {
     display: grid;
     grid-template-columns: 500px auto auto auto auto;
     grid-template-rows: 70px;
-    grid-column-gap: 30px;
+    grid-column-gap: 10px;
 }
 
 .body-grid {
@@ -85,7 +85,7 @@ a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
 
 .project {
     border: 1px solid rgb(50, 50, 50);
-    border-radius: 30px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -130,6 +130,13 @@ b {
 }
 
 .projectbutton {
-    background: #747fe0;
+    background: #6784db;
     color: #fff;
+    font-size: 16px;
+    width: 125px;
+    height: 38px;
+    border-radius: 6px;
+    transition: all .15s ease;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    cursor: pointer;
 }
