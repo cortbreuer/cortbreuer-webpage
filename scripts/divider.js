@@ -1,4 +1,7 @@
-var canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("dividerCanvas");
 var ctx = canvas.getContext("2d");
-ctx.fillStyle = "#FF0000";
-ctx.fillRect(0,0,150,75);
+
+ctx.beginPath();
+ctx.moveTo(0,0);
+ctx.lineTo(100,1);
+ctx.stroke();

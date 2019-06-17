@@ -148,3 +148,8 @@ b {
     cursor: pointer;
     margin-right: 10px;
 }
+
+#dividerCanvas {
+    width: 55%;
+    height: 10px;
+}
