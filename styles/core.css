@@ -4,7 +4,7 @@ body {
     background-color: #f7f9fc;
 }
 
-/*div  {
+/** {
     border: 1px solid rgb(50, 50, 50);
 }*/
 
@@ -64,7 +64,7 @@ a.navtitle, a.navtitle:link, a.navtitle:hover, a.navtitle:active {
 
 a.navlink, a.navlink:link, a.navlink:hover, a.navlink:active {
     font-size: 18px;
-    text-decoration: overline;
+    /*text-decoration: overline;*/
     color: #557395;
     line-height: 55px;
     font-weight: lighter;
