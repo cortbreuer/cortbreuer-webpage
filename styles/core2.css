@@ -693,7 +693,6 @@ nav ul:after {
 
 .partners {
   padding-top: 35px;
-  padding-bottom: 37px;
   border-top: 1px solid #e0e0e0;
 }
 
@@ -713,7 +712,7 @@ nav ul:after {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 968px;
+  max-width: 300px;
   margin: 20px auto 19px auto;
 }
 
@@ -755,7 +754,7 @@ nav ul:after {
 
 .section_title {
   color: #adadaf;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.8px;
@@ -2866,8 +2865,8 @@ nav ul:after {
   }
 
   .nav-main .menu-item a {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 38px;
+    line-height: 48px;
   }
   .menu-item .sub-menu .menu-item a {
     font-size: 18px;
@@ -3131,7 +3130,7 @@ nav ul:after {
 }
 
 .desktop-menu li a {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
     color: #000;
     text-decoration: none;
