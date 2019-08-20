@@ -3146,7 +3146,13 @@ nav ul:after {
   display: flex;
 }
 
-.column {
-  flex: 50%;
+.timeline_left {
+  flex: 30%;
   padding: 10px;
+  text-align: right;
+}
+
+.timeline_right {
+    flex: 70%;
+    padding: 10px;
 }
