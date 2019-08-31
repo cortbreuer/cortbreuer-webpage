@@ -6,74 +6,6 @@
     <title>Cort Breuer</title>
     <meta name="description" content="Cort Breuer is an undergraduate engineering student at Cornell University and a biomedical researcher." />
     <link rel="canonical" href="https://cortbreuer.github.io" />
-    <script type="text/javascript">
-        
-        ! function(a, b, c) {
-            function d(a, b) {
-                var c = String.fromCharCode;
-                l.clearRect(0, 0, k.width, k.height),
-                    l.fillText(c.apply(this, a), 0, 0);
-                var d = k.toDataURL();
-                l.clearRect(0, 0, k.width, k.height),
-                    l.fillText(c.apply(this, b), 0, 0);
-                var e = k.toDataURL();
-                return d === e
-            }
-
-            function e(a) {
-                var b;
-                if (!l || !l.fillText)
-                    return !1;
-                switch (l.textBaseline = "top",
-                    l.font = "600 32px Arial",
-                    a) {
-                    case "flag":
-                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423,
-                                8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447
-                            ]),
-                            !b);
-                    case "emoji":
-                        return b = d([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]),
-                            !b
-                }
-                return !1
-            }
-
-            function f(a) {
-                var c = b.createElement("script");
-                c.src = a,
-                    c.defer = c.type = "text/javascript",
-                    b.getElementsByTagName("head")[0].appendChild(c)
-            }
-            var g, h, i, j, k = b.createElement("canvas"),
-                l = k.getContext && k.getContext("2d");
-            for (j = Array("flag", "emoji"),
-                c.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                },
-                i = 0; i < j.length; i++)
-                c.supports[j[i]] = e(j[i]),
-                c.supports.everything = c.supports.everything && c.supports[j[i]],
-                "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
-            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag,
-                c.DOMReady = !1,
-                c.readyCallback = function() {
-                    c.DOMReady = !0
-                },
-                c.supports.everything || (h = function() {
-                        c.readyCallback()
-                    },
-                    b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1),
-                        a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h),
-                        b.attachEvent("onreadystatechange", function() {
-                            "complete" === b.readyState && c.readyCallback()
-                        })),
-                    g = c.source || {},
-                    g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji),
-                        f(g.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -96,68 +28,10 @@
     <link rel='https://api.w.org/' href='http://doudnalab.org/wp-json/' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://doudnalab.org/xmlrpc.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://doudnalab.org/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 5.2.2" />
     <link rel='shortlink' href='http://doudnalab.org/' />
     <link rel="alternate" type="application/json+oembed" href="http://doudnalab.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdoudnalab.org%2F" />
     <link rel="alternate" type="text/xml+oembed" href="http://doudnalab.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdoudnalab.org%2F&#038;format=xml" />
-    <script type="text/javascript">
-        //<![CDATA[
-        function external_links_in_new_windows_loop() {
-            if (!document.links) {
-                document.links = document.getElementsByTagName('a');
-            }
-            var change_link = false;
-            var force = '';
-            var ignore = '';
 
-            for (var t = 0; t < document.links.length; t++) {
-                var all_links = document.links[t];
-                change_link = false;
-
-                if (document.links[t].hasAttribute('onClick') == false) {
-                    // forced if the address starts with http (or also https), but does not link to the current domain
-                    if (all_links.href.search(/^http/) != -1 && all_links.href.search('doudnalab.org') == -1) {
-                        // alert('Changeda '+all_links.href);
-                        change_link = true;
-                    }
-
-                    if (force != '' && all_links.href.search(force) != -1) {
-                        // forced
-                        // alert('force '+all_links.href);
-                        change_link = true;
-                    }
-
-                    if (ignore != '' && all_links.href.search(ignore) != -1) {
-                        // alert('ignore '+all_links.href);
-                        // ignored
-                        change_link = false;
-                    }
-
-                    if (change_link == true) {
-                        // alert('Changed '+all_links.href);
-                        document.links[t].setAttribute('onClick', 'javascript:window.open(\'' + all_links.href + '\'); return false;');
-                        document.links[t].removeAttribute('target');
-                    }
-                }
-            }
-        }
-
-        // Load
-        function external_links_in_new_windows_load(func) {
-            var oldonload = window.onload;
-            if (typeof window.onload != 'function') {
-                window.onload = func;
-            } else {
-                window.onload = function() {
-                    oldonload();
-                    func();
-                }
-            }
-        }
-
-        external_links_in_new_windows_load(external_links_in_new_windows_loop);
-        //]]>
-    </script>
     <style type="text/css">
         .recentcomments a {
             display: inline !important;
