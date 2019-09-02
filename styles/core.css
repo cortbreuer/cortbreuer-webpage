@@ -5,6 +5,27 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+@font-face {
+    font-family: Circular;
+    src: url("cortbreuer.github.io/files/fonts/CircularPro-Book.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("cortbreuer.github.io/files/assets/fonts/CircularPro-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url("cortbreuer.github.io/files/fonts/CircularPro-Bold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal
+}
+
 body {
     width: 50%;
     margin: auto;
@@ -56,4 +77,5 @@ h1 {
 .intro {
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 80%;
 }
