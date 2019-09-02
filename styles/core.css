@@ -88,7 +88,6 @@ a, a:visited {
 
 #logo_text {
     background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
-    color: #112ff1;
 }
 
 .intro {
@@ -148,7 +147,8 @@ ul {
 }
 .intro-subtitle {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: GT-Pressura, monospace;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
