@@ -42,7 +42,9 @@ body {
     margin-bottom: 20px;
     width: 55%;
     /* border-left: 2px solid black; */
-    background: -webkit-linear-gradient(rgb(133, 145, 255, .2) 0%, rgb(98, 189, 252, .2) 100%);
+    /* background: -webkit-linear-gradient(rgb(133, 145, 255, .2) 0%, rgb(98, 189, 252, .2) 100%); */
+    background: -webkit-linear-gradient(rgb(0, 255, 156, .2) 0%, rgb(0, 151, 255, .3) 100%);
+
 }
 
 .container {
@@ -62,8 +64,8 @@ a, a:visited {
     vertical-align: bottom;
 }
 
-.header a:hover, a:active {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
+.header a:hover, .header a:active {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 30%, rgb(0, 151, 255, .3) 45%);
 }
 
 .header {
@@ -88,7 +90,7 @@ a, a:visited {
 }
 
 #logo_text {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 30%, rgb(0, 151, 255, .3) 45%);
 }
 
 .intro {
@@ -147,8 +149,8 @@ ul {
 
 .intro-title {
     font-size: 32px;
-    background: linear-gradient(180deg,rgba(255,255,255,0) 80%, #FFD0AE 40%);
 }
+
 .intro-subtitle {
     margin-top: 20px;
     font-size: 16px;
@@ -159,7 +161,16 @@ ul {
 }
 
 .footer {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+}
+
+.footer a:hover, .footer a:active {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 30%, rgb(0, 255, 156, .2) 45%);
+}
+
+span {
+    background: linear-gradient(180deg,rgba(255, 255, 255, 0) 30%, rgb(0, 151, 255, .3) 45%);
 }
 
 /* div, ul, li, p, a, section, footer {
