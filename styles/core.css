@@ -18,31 +18,42 @@ a, a:visited {
 .header a {
     float: left;
     text-align: center;
-    padding: 6px;
     line-height: 25px;
+    vertical-align: bottom;
 }
 
 .header a:hover, a:active {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
 }
 
 .header {
-    margin-top: 10px;
-    border-bottom: 5px solid rgb(88, 61, 217);
-    padding: 20px 5px;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(88, 61, 217);
+    padding: 10px 5px;
     display: block;
     overflow: hidden;
 }
 
 .header-right {
     float: right;
+    font-size: 18px;
+}
+
+.header-right a{
+    margin-left: 30px;
 }
 
 #logo_text {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 800;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 60%, #FFD0AE 40%);
 }
 
 h1 {
     font-weight: bold;
+}
+
+.intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
