@@ -3,7 +3,14 @@
     margin: 0;
 }
 
+body {
+    width: 50%;
+    margin: auto;
+}
+
+
+
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 800;
 }
