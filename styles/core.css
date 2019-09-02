@@ -28,15 +28,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: GT-Pressura;
+    src: url("fonts/GT-Pressura-Mono-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: auto;
     width: 50%;
-    border-left: 1px solid rgb(143, 157, 207);
-}
-
-footer {
-    border-left: 1px solid rgb(143, 157, 207);
-
+    /* border-left: 1px solid rgb(143, 157, 207); */
 }
 
 .container {
@@ -94,10 +96,6 @@ a, a:visited {
     text-align: center;
 }
 
-.work {
-    margin-top: 500px;
-}
-
 .about {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -114,3 +112,31 @@ a, a:visited {
 .socials a {
     margin-left: 20px;
 }
+
+.grid-wrapper {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid-item {
+    width: 45%;
+    margin: 20px 20px 20px 20px;
+    height: 200px;
+    font-family: GT-Pressura, monospace;
+    list-style-position: inside;
+}
+
+.right-col {
+    float: right;
+}
+
+.left-col {
+    float: left;
+}
+
+/* div, ul, li, p, a, section, footer {
+    border: 1px solid black;
+} */
