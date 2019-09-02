@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
@@ -8,9 +9,19 @@ body {
     margin: auto;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
 
+a:hover, a:active {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFD0AE 50%);
+}
+
+ul {
+    list-style: none;
+}
 
 h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 800;
+    font-weight: bold;
 }
