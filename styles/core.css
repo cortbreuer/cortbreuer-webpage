@@ -18,10 +18,8 @@ a, a:visited {
 .header a {
     float: left;
     text-align: center;
-    padding: 12px;
-    font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+    padding: 6px;
+    line-height: 25px;
 }
 
 .header a:hover, a:active {
@@ -29,14 +27,20 @@ a, a:visited {
 }
 
 .header {
+    margin-top: 10px;
     border-bottom: 5px solid rgb(88, 61, 217);
-    padding: 20px 10px;
+    padding: 20px 5px;
     display: block;
     overflow: hidden;
 }
 
 .header-right {
     float: right;
+}
+
+#logo_text {
+    font-size: 25px;
+    font-weight: bold;
 }
 
 h1 {
