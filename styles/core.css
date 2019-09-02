@@ -20,6 +20,16 @@ a:hover, a:active {
 
 ul {
     list-style: none;
+    display: block;
+}
+
+li {
+    display: inline-block;
+}
+
+header {
+    border-bottom: 1px solid rgb(88, 61, 217);
+    display: block;
 }
 
 h1 {
