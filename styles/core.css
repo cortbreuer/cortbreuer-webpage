@@ -133,7 +133,7 @@ ul {
 .grid-item {
     width: 45%;
     margin: 20px 20px 20px 20px;
-    height: 200px;
+    height: 240px;
     font-family: GT-Pressura, monospace;
     list-style-position: inside;
     border: 1px solid black;
@@ -175,6 +175,42 @@ span {
 
 .section-header {
     text-align: left;
+}
+
+.byline {
+    font-family: GT-Pressura, monospace;
+    font-size: 16px;
+    width: 90%;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 90%;
+    height: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+}
+
+.card-date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 15px;
+}
+
+.card-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15px;
+}
+
+.card-link:active, .card-link:hover {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 30%, rgb(0, 151, 255, .3) 45%);
 }
 
 /* div, ul, li, p, a, section, footer {
