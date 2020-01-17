@@ -1886,7 +1886,7 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     #header #logo img {
-        max-height: 40px
+        max-height: 60px
     }
 }
 
@@ -2234,7 +2234,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area {
     background: url(../img/bubbles.png) center;
-    background-size: cover
+    background-size: 80%;
+    background-repeat:no-repeat;
 }
 
 @media (max-width: 767.98px) {
