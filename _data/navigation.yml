@@ -1,8 +1,14 @@
 # main links links
 main:
 
+  - title: "About"
+    url: /#about/
+
   - title: "Research"
-    url: /research/
+    url: /#research/
+
+  - title: "Outreach"
+    url: /#outreach/
 
   #- title: "Publications/Presentations"
   #  url: /publications/
@@ -20,7 +26,7 @@ main:
   #  url: /year-archive/
 
   - title: "CV"
-    url: /cv/
+    url: /#cv/
 
   - title: "Guide"
     url: /markdown/
