@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Cort B. Breuer"
+  name             : "Cort Breuer"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Undergraduate biological engineer at Cornell University focused on immunology and translataional research"
   location         : "Boston, MA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=cort+b+breuer"
