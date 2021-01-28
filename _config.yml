@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cort B. Breuer"
+title                    : "Cort Breuer"
 title_separator          : "-"
 name                     : &name "Cort Breuer"
 description              : &description "personal description"
