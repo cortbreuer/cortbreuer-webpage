@@ -29,13 +29,13 @@ Lee J, **Breuer CB**, Lee E. Bioengineered models of immune cell vascular intera
 
 ### 3. Next-generation vaccines for pancreatic cancer
 
-As part of a collaboration between the Lee Lab and Weill Cornell investigators, I have recently been working on a pilot project for enhancing cell-based cancer vaccines with the potential for personalized treataments for patients. 
+As part of a collaboration between the Lee Lab and Weill Cornell investigators, I have recently been working on a pilot project for enhancing cell-based cancer vaccines with the potential for personalized treataments for patients.
 
-$ ### 4. Piezo1 as a regulator of immune cell activation and migration
+[](### 4. Piezo1 as a regulator of immune cell activation and migration)
 
-$ ### 5. Structural basis of mechanotransduction during T cell activation
+[](### 5. Structural basis of mechanotransduction during T cell activation)
 
-$ ### 6. Application of receptor-ligand analysis to scRNA-seq datasets in cancer immunology
+[](### 6. Application of receptor-ligand analysis to scRNA-seq datasets in cancer immunology)
 
 ## Outreach
 ---
