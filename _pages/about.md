@@ -8,46 +8,50 @@ redirect_from:
   - /about.html
 ---
 
-### About Me
+## About Me
 
 
-I am an undergraduate student (junior) at Cornell University studying Biological Engineering.
+I am an undergraduate student (junior) at Cornell University studying Biological Engineering. I currently work in the [Lee Lab](https://leelab.bme.cornell.edu/) in the Department of Biomedical Engineering, focusing on interactions between immune cells and endothelial cells in tumors.
 
-
-### Research
+## Research
 ---
 
-#### 1. Viral vectors for the immune system
+### 1. Viral vectors for the immune system
 
 While part of the [Moon Lab](https://www.massgeneral.org/medicine/ciid/research-labs/james-moon), I worked on applying recent work on exosome-associated AAV by the [Maguire Lab](http://www.casey-maguire-laboratory.com/about) for gene therapy delivery to immune cells. We demonstrated that intravenous injection of exo-AAV into mice could effectively transduce immune cells in the blood, lymph nodes, and spleen - allowing for the expression of a GFP marker or human IL-2Ra.
 
 **Breuer CB**, Hanlon KS, Natasan J-S, Volak A, Meliani A, Mingozzi F, Kleinstiver BP, Moon JJ & Maguire CA. [In vivo engineering of lymphocytes after systemic exosome-associated AAV delivery.](https://www.nature.com/articles/s41598-020-61518-w) *Sci. Rep.* 10:4544, 2020.
 
-#### 1. Lymphatic endothelial cells and vessels in cancer immunity
+### 2. Lymphatic endothelial cells and vessels in cancer immunity
 
 In the [Lee Lab](https://leelab.bme.cornell.edu/),
 
 Lee J, **Breuer CB**, Lee E. Bioengineered models of immune cell vascular interactions. (2020, In Review).
 
-#### 1. Next-generation vaccines for pancreatic cancer
+### 3. Next-generation vaccines for pancreatic cancer
 
 
 
-
-#### 1. Piezo1 as a regulator of immune cell activation and migration
-
+### 4. Piezo1 as a regulator of immune cell activation and migration
 
 
-### Outreach
+
+## Outreach
 ---
 
 1. Cornell Biomedical Engineering Society
 
-1. Cornell Undergraduate Research Board
+As Treasurer and former Professional Development Chair, I have helped lead the BMES organization to foster community among biomedical engineering students and increase interest in the field through philanthropy, outreach, and industry recruitment events.
 
-1. Course Teaching Assistant
+2. Cornell Undergraduate Research Board
 
-### CV
+I mentor underclassmen in CURB each semester as part of the Research Mentorship program, advising students on matching research with their interests and finding opportunities with professors. A key goal of the program is to introduce diverse students to research who would otherwise not have the opportunity or chance to participate.
+
+3. Course Teaching Assistant
+
+I work as an undergraduate teaching assistant for courses in biological engineering and thermodynamics/kinetics. I support the course by grading assignments and exams, holding weekly office hours with students, and ensuring teaching technology is functioning. 
+
+## CV
 ---
 
 
