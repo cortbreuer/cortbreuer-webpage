@@ -28,7 +28,7 @@ Lee J, **Breuer CB**, Lee E. Bioengineered models of immune cell vascular intera
 
 ### 3. Next-generation vaccines for pancreatic cancer
 
-As part of a collaboration between the Lee Lab and Weill Cornell investigators, I have recently been working on a pilot project for enhancing cell-based cancer vaccines with the potential for personalized treataments for patients.
+As part of a collaboration between the Lee Lab and Weill Cornell investigators, I have recently been working on a pilot project for enhancing cell-based cancer vaccines with the potential for personalized treatments for patients.
 
 [](### 4. Piezo1 as a regulator of immune cell activation and migration)
 
@@ -51,4 +51,3 @@ I mentor underclassmen in CURB each semester as part of the Research Mentorship 
 I work as an undergraduate teaching assistant for courses in biological engineering and thermodynamics/kinetics. I support the course by grading assignments and exams, holding weekly office hours with students, and ensuring teaching technology is functioning.
 
 ## CV
----
