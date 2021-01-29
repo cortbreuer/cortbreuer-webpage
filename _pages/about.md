@@ -13,7 +13,6 @@ redirect_from:
 I am an undergraduate student (junior) at Cornell University studying Biological Engineering. I currently work in the [Lee Lab](https://leelab.bme.cornell.edu/) in the Department of Biomedical Engineering, focusing on interactions between immune cells and endothelial cells in tumors.
 
 ## Research
----
 
 ### 1. Viral vectors for the immune system
 
@@ -38,7 +37,6 @@ As part of a collaboration between the Lee Lab and Weill Cornell investigators, 
 [](### 6. Application of receptor-ligand analysis to scRNA-seq datasets in cancer immunology)
 
 ## Outreach
----
 
 1\. Cornell Biomedical Engineering Society
 
