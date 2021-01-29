@@ -40,15 +40,15 @@ As part of a collaboration between the Lee Lab and Weill Cornell investigators, 
 ## Outreach
 ---
 
-1. Cornell Biomedical Engineering Society
+1\. Cornell Biomedical Engineering Society
 
 As Treasurer and former Professional Development Chair, I have helped lead the BMES organization to foster community among biomedical engineering students and increase interest in the field through philanthropy, outreach, and industry recruitment events.
 
-1. Cornell Undergraduate Research Board
+2\. Cornell Undergraduate Research Board
 
 I mentor underclassmen in CURB each semester as part of the Research Mentorship program, advising students on matching research with their interests and finding opportunities with professors. A key goal of the program is to introduce diverse students to research who would otherwise not have the opportunity or chance to participate.
 
-1. Course Teaching Assistant
+3\. Course Teaching Assistant
 
 I work as an undergraduate teaching assistant for courses in biological engineering and thermodynamics/kinetics. I support the course by grading assignments and exams, holding weekly office hours with students, and ensuring teaching technology is functioning.
 
