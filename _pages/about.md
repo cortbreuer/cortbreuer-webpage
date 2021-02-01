@@ -55,7 +55,6 @@ I work as an undergraduate teaching assistant for courses in biological engineer
 ### Education
 
 * B.S. in Biological Engineering, Cornell University College of Engineering, Expected 2022
-* Wellesley High School, 2018
 
 ### Research Experience
 
