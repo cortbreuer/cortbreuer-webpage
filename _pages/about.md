@@ -52,21 +52,28 @@ I work as an undergraduate teaching assistant for courses in biological engineer
 
 ## CV
 
-Education
-======
+### Education
+
 * B.S. in Biological Engineering, Cornell University College of Engineering, Expected 2022
 * Wellesley High School, 2018
 
-Research Experience
-======
-* Summer 2020, 2021: National Cancer Institute CSBC/PS-ON Summer Research Program \\ Krogsgaard Lab at the New York University Grossman School of Medicine
-  * Filler
+### Research Experience
 
-* August 2019 - Present: Lee Lab in the Department of BME, Cornell University
-  * Filler
+* National Cancer Institute CSBC/PS-ON Summer Research Program (Summer 2020, 2021)
+Krogsgaard Lab at the New York University Grossman School of Medicine (Summer 2021)
+  * Developed computational skills in analyzing/integrating RNA-seq and biophysical cell data
+  * Invited to return in 2021 to work with Dr. Krogsgaard on biophysical recognition of TCR-CD3 interactions
 
-* June 2017 - August 2019: Moon Lab at Massachusetts General Hospital \\ Summer 2019: Harvard Medical School Immunology Summer Research Program
-   * Filler
+* Lee Lab in the Department of BME, Cornell University (August 2019 - Present)
+  * Evaluated combined checkpoint blockade/Rho-associated protein kinase inhibition in an in vivo melanoma model
+  * Utilized in vitro organ-on-a-chips to study lymphocyte interactions with lymphatic vessels
+  * Contributed to review articles, animal protocols, and grant proposals (NSF, NCI, AACR)
 
-* September 2018 - April 2019: Singh Lab in the Department of BME, Cornell University
-  * Filler
+* Moon Lab at Massachusetts General Hospital (June 2017 - August 2019)
+Harvard Medical School Immunology Summer Research Program (Summer 2019)
+  * Evaluated exosome-bound AAV vector for in vivo lymphocyte gene therapies, expressing both GFP and an IL-2 surface receptor on immune cells
+  * Applied exo-AAV to targeted delivery of CRISPR/Cas9 system into T cells using both surface membrane ligands and a restricted gene promoter
+  * Attended weekly seminars by Harvard professors on their current research and published a first-author journal article
+
+* Singh Lab in the Department of BME, Cornell University (September 2018 - April 2019)
+  * Assisted doctoral student in the development and use of biomaterial-based immune organoids to study germinal center development and signaling in lymphoma
