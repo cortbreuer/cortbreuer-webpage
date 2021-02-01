@@ -51,3 +51,22 @@ I mentor underclassmen in CURB each semester as part of the Research Mentorship 
 I work as an undergraduate teaching assistant for courses in biological engineering and thermodynamics/kinetics. I support the course by grading assignments and exams, holding weekly office hours with students, and ensuring teaching technology is functioning.
 
 ## CV
+
+Education
+======
+* B.S. in Biological Engineering, Cornell University College of Engineering, Expected 2022
+* Wellesley High School, 2018
+
+Research Experience
+======
+* Summer 2020, 2021: National Cancer Institute CSBC/PS-ON Summer Research Program \\ Krogsgaard Lab at the New York University Grossman School of Medicine
+  * Filler
+
+* August 2019 - Present: Lee Lab in the Department of BME, Cornell University
+  * Filler
+
+* June 2017 - August 2019: Moon Lab at Massachusetts General Hospital \\ Summer 2019: Harvard Medical School Immunology Summer Research Program
+   * Filler
+
+* September 2018 - April 2019: Singh Lab in the Department of BME, Cornell University
+  * Filler
