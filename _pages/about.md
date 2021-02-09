@@ -26,7 +26,7 @@ In the [Lee Lab](https://leelab.bme.cornell.edu/), I primarily work on projects 
 
 Lee J, **Breuer CB**, Lee E. Bioengineered models of immune cell vascular interactions. (2020, In Review).
 
-### 3. Next-generation vaccines for pancreatic cancer
+### 3. Dendritic cell vaccine for pancreatic cancer
 
 As part of a collaboration between the Lee Lab and Weill Cornell investigators, I have recently been working on a pilot project for enhancing cell-based cancer vaccines with the potential for personalized treatments for patients.
 
@@ -35,6 +35,8 @@ As part of a collaboration between the Lee Lab and Weill Cornell investigators, 
 [](### 5. Structural basis of mechanotransduction during T cell activation)
 
 [](### 6. Application of receptor-ligand analysis to scRNA-seq datasets in cancer immunology)
+
+[](Goal is to work on immunology using many approaches and field integrations: 1. Biomaterials for cell differentiation 2. Cell-based vacccine therapy for cancer 3. scRNA-seq methods for analyzing immune cells in tumors 4. scRNA-seq receptor-ligand methods in tumors and healthy tissues 5. Understanding mechanotransduction of T cells through the TCR 6. Lymphatic endothelial cell priming of immune responses 7. Viral vectors and gene therapy for immune cells ---- Moving forward: 8. Engineered proteins and receptor-ligands for controling and engineering immune cells 9. Understanding systems dynamics in immune cells -> moving from single cells or large populations to quantifying cell interactions)
 
 ## Outreach
 
